@@ -32,7 +32,7 @@ func (k Keeper) SetWhois(ctx sdk.Context, name string, whois Whois) {
 }
 
 
-func (k Keeper) GetWhois(ctx sdk.Context, name string) Whois{
+func (k Keeper) GetWhois(ctx sdk.Context, name string) Whois {
 
 	store := ctx.KVStore(k.storeKey)
 
